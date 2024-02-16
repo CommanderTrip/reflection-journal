@@ -1,17 +1,17 @@
-import { Button, VerticalBox } from "std-widgets.slint";
+import { Button, VerticalBox, TabWidget } from "std-widgets.slint";
+import { YearInPixelsView } from "views/YearInPixelsView.slint";
 
 export component AppWindow inherits Window {
-    in-out property<int> counter: 42;
-    callback request-increase-value();
-    VerticalBox {
-        Text {
-            text: "Counter: \{root.counter}";
+    preferred-height: 500px;
+    preferred-width: 500px;
+    TabWidget {
+        Tab {
+            title: "Pixels";
+            YearInPixelsView {}
         }
-        Button {
-            text: "Increase value";
-            clicked => {
-                root.request-increase-value();
-            }
+        Tab {
+            title: "Weather";
         }
     }
 }
+

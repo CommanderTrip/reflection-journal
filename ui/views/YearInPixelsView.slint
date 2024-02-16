@@ -1,0 +1,28 @@
+import { MonthGrid } from "../components/MonthGrid.slint";
+import { GridBox } from "std-widgets.slint";
+
+export component YearInPixelsView inherits VerticalLayout {
+    private property <[string]> month-abbreviations: ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
+    private property <length> day-square-size: 15px;
+
+
+    for month in month-abbreviations: HorizontalLayout {
+        spacing: 0;
+
+        Text {
+            text: month;
+
+            font-size: 7pt;
+            horizontal-alignment: center;
+            vertical-alignment: top;
+        }
+        for day in 31: Rectangle {
+            width: day-square-size;
+            height: day-square-size;
+            background: white;
+            border-color: black;
+            border-width: 2px;
+        }
+    }
+
+}

@@ -1,0 +1,29 @@
+export component MonthGrid inherits HorizontalLayout {
+    private property <[string]> month-abbreviations: ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D", ""]; // extra row at bottom
+    private property <length> day-square-size: 15px;
+
+    in property <string> month-letter: "1";
+
+    height: day-square-size;
+
+    for column in 32: VerticalLayout {
+        if column == 0: VerticalLayout {
+            for abbreviation in month-abbreviations: Text {
+                text: abbreviation;
+            }
+        }
+
+        VerticalLayout {
+            for month in 12: Rectangle {
+                background: white;
+                border-color: black;
+                border-width: 2px;
+            }
+            Text {
+                text: column;
+            }
+        }
+    }
+
+
+}
