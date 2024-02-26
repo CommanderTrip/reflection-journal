@@ -1,0 +1,83 @@
+# Reflection Journal
+
+- [ ] A Year in Pixels
+  - [ ] Pixel with mixed options? i.e. diagonal split with two options. More?
+  - [ ] Vertical View
+  - [ ] Horizontal View
+  - [ ] Auto-population of the current date
+    - [ ] Detection of leap year
+  - [ ] Toggle Between Views
+    - [ ] Animation Transition
+  - [ ] Rate the Day
+    - [ ] Happy
+    - [ ] Sad
+    - [ ] Productive
+    - [ ] Ambitious
+    - [ ] Stressed/Overwhelmed
+    - [ ] Meh/weird
+    - [ ] Average
+    - [ ] Unwell
+    - [ ] Tired
+    - [ ] Bored
+    - [ ] Grateful
+    - [ ] 1 - 5 stars?
+    - [ ] Other Custom Choices
+    - [ ] Custom Color Picker
+  - [ ] Health Tracker
+    - [ ] Well
+    - [ ] Cold/Cough
+    - [ ] Headache
+    - [ ] Stomach Bug
+    - [ ] Hangover
+    - [ ] Body Pain
+    - [ ] Other Custom Choices
+    - [ ] Custom Color Picker
+  - [ ] Dream Log
+    - [ ] Happy
+    - [ ] Funny
+    - [ ] Weird
+    - [ ] Sad
+    - [ ] Boring
+    - [ ] Don't Remember
+    - [ ] Other Custom Choices
+    - [ ] Custom Color Picker
+  - [ ] Weather Tracker
+    - [ ] Sunny
+    - [ ] Cloudy
+    - [ ] Rainy
+    - [ ] Snowy
+    - [ ] Windy
+    - [ ] Stormy
+    - [ ] Other Custom Choices
+    - [ ] Custom Color Picker
+    - [ ] Auto-suggestion?
+  - [ ] Spend Tracker
+    - [ ] 0
+    - [ ] 1 - 50
+    - [ ] 51 - 100
+    - [ ] 101 - 500
+    - [ ] > 500
+    - [ ] Other Custom Choices
+    - [ ] Custom Color Picker
+  - [ ] Step Tracker
+    - [ ] Pixel View
+    - [ ] Horizontal Bar view
+    - [ ] 1000
+    - [ ] 2000
+    - [ ] 3000
+    - [ ] 4000
+    - [ ] 5000
+    - [ ] Other Custom Choices
+    - [ ] Custom Color Picker
+  - [ ] Habit Tracker
+    - [ ] Custom Year in Pixels Views
+    - [ ] Custom Choices
+    - [ ] Custom Color Picker
+  - [ ] Remove/Add pre-made options
+- [ ] Goals for the Month
+- [ ] Inspirations this Month
+- [ ] Sleep Tracker
+  - [ ] Month View
+  - [ ] Horizontal Bar Graph
+  - [ ] 1400 - 1200 start end time
+- [ ] Journal Entry?

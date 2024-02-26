@@ -4,12 +4,15 @@ import { SideBar } from "components/SideBar.slint";
 import { MainTheme } from "styles/MainTheme.slint";
 
 export component AppWindow inherits Window {
-    preferred-height: 700px;
-    preferred-width: 700px;
+    title: "Pixels in Time";
+    icon: @image-url("./assets/pixel-blue.jpg");
+
+    preferred-height: 500px;
+    preferred-width: 500px;
     background: @linear-gradient(-45deg, MainTheme.primary-black 0%, MainTheme.secondary-black 100%);
 
 
-    HorizontalBox {
+    HorizontalLayout {
         padding: 0;
 
         navigation := SideBar {
